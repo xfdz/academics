@@ -1,4 +1,4 @@
-CCNY
+Academics
 ====
 
-Projects and assignments while attending ccny.
+Projects and assignments while attending school.
