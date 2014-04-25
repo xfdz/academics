@@ -1,0 +1,6 @@
+Add more info here
+
+1. Compiling initial empty board game.
+
+gcc hexmain.c -lm -lX11 -L/usr/X11R6/lib -o hex
+
