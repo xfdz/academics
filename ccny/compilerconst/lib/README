@@ -1,0 +1,18 @@
+
+HOW TO RUN:
+
+To run the limited pascal compiler you'll need perl 5.8 or greater. 
+I only use standard modules, so downloading a library isn't necessary.
+
+To execute the compiler, change directories into /lib 
+
+ ./jpcc.pl test/test_write_and_writeln.pas
+
+
+OPTIONAL FLAG:
+
+I have an option flag called "-dump" that you can pass as an extra option tojpcc.pl. It will do a pretty print of internal data structures being used bythe objects.
+
+./jpcc.pl test/test_write_and_writeln.pas -dump
+
+    
