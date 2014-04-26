@@ -1,0 +1,56 @@
+%%
+%% CSC I1600 - Natural Lang Processing
+%% Project: Design a cloud-shape outline frame using PS
+%%
+
+%!PS-Adobe-2.0 EPSF-2.0
+
+/cm .8 def
+%%EndProlog
+cm cm scale
+/radius 60 def
+
+
+%%
+%% center-left circles
+newpath
+200 400 radius 99 275 arc 
+stroke 
+
+%% lower-left circle
+newpath
+250 380 radius 221 284 arc 
+stroke 
+
+%% lower-center circle
+newpath
+300 370 radius 233 304 arc 
+stroke 
+
+%% lower-right circle
+newpath
+340 380 radius 264 320 arc 
+stroke 
+
+%% center-right circles
+newpath
+400 400 radius 81 256 arcn 
+stroke 
+
+%% upper circles
+%%
+%% upper-left
+newpath
+250 450 radius 76 172 arc 
+stroke 
+
+newpath
+300 460 radius 53 127 arc 
+stroke 
+
+newpath
+350 449 radius 10 104 arc 
+stroke 
+
+showpage
+%EOF
